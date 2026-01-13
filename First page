@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The decline of employment in the computer science sector | 6th GPS Project</title>
     <style>
-        /* This section makes the website look "Techy" */
         body {
             background-color: #0f172a; /* Deep blue/black */
             color: #f1f5f9;
@@ -19,7 +18,6 @@
             padding: 40px 0;
         }
         h1 {
-            color: #38bdf8; /* Bright blue */
             font-size: 2.5rem;
             margin-bottom: 10px;
         }
@@ -38,7 +36,7 @@
             height: 0;
             overflow: hidden;
             border-radius: 12px;
-            border: 3px solid #7bf838;
+            border: 3px solid #f83838;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
             margin-bottom: 40px;
         }
@@ -60,11 +58,17 @@
             background: #1e293b;
             padding: 20px;
             border-radius: 8px;
-            border-left: 5px solid #38bdf8;
+            border-left: 5px solid #f83838;
+        }
+        .cardsolution {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #6238f8;
         }
         .card h3 {
             margin-top: 0;
-            color: #38bdf8;
+            color: #ffffff;
         }
         footer {
             text-align: center;
@@ -72,6 +76,14 @@
             font-size: 0.8rem;
             color: #64748b;
         }
+body {
+  /* Combine a dark gradient and your GIF in one line */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url("matrix-code.gif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
     </style>
 </head>
 <body>
@@ -86,10 +98,10 @@
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
         </div>
-
-        <h2>The Reality Check</h2>
+        <div>        
+            <h2 style="color: #ffffff;"> The Reality Check</h2>
         <p>In the last two years, the technology industry has faced a "correction." After years of massive hiring, several factors have led to a decline in open positions for new software engineers.</p>
-
+    </div>
         <div class="stats-grid">
             <div class="card">
                 <h3>The "Great Layoff"</h3>
@@ -100,16 +112,35 @@
                 <p>Tools like GitHub Copilot can now write basic code, meaning companies need fewer junior developers to do entry-level work.</p>
             </div>
             <div class="card">
-                <h3>Solutions</h3>
-                <p>Some CS tech sectors are still A.I. free, such as Cyber Security. 
-                And laws by the federal government force the companies to come clean about their A.I. usage, and layoff rates. </p>
+                <h3>AI Takeover</h3>
+                <p>AI has taken over most of the tech sectors job market as any company would take a reliable, cheap, and fast code writer,
+                    than a non-reliable, quite expensive, and slow code writer Junior.
+                </p>
+            </div>
+            <div class="cardsolution">
+                <h3>Solutions: 1</h3>
+                <p>Some CS tech sectors are still A.I. free, such as Cyber Security. As A.I. can not comprehend "human hacking",
+                    and if you have seen Cybersecurity pay, it's pretty good.
+                </p>
+            </div>
+            <div class="cardsolution">
+                <h3>Solutions: 2</h3>
+                <p>The US government already made a law for companies to come clean about their A.I. usage and layoff statistics, 
+                    which let the public view their statistics.
+                </p>
+            </div>
+            <div class="cardsolution">
+                <h3>Solutions: 3</h3>
+                <p>A.I. doesn't always ruin a junior developer's computer science career as there is a lot of A.I. learning courses that teach
+                    people how to use A.I. along with their job with ease.
+                </p>
             </div>
         </div>
 
     </div>
 
     <footer>
-        <p>Created by Iskander Melis | 6th grade GPS project</p>
+        <p style="color: white;" >Created by Iskander Melis | 6th grade GPS project</p>
     </footer>
 
 </body>
